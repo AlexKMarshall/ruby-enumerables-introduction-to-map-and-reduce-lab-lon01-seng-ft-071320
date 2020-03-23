@@ -43,5 +43,6 @@ def reduce_to_total(source)
   source.length.times do |index|
     current = source[index]
     accumulator += current
-  
+  end
+  accumulator
 end
