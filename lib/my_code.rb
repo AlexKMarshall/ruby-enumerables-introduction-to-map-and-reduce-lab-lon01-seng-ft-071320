@@ -46,3 +46,7 @@ def reduce_to_total(source, initial_Value = 0)
   end
   accumulator
 end
+
+def reduce_to_all_true(source)
+  accumulator = true
+end
