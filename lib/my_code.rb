@@ -28,7 +28,7 @@ def map_to_double(source)
   result
 end
 
-def map_to_double(source)
+def map_to_square(source)
   result = []
   source.length.times do |index|
     element = source[index]
