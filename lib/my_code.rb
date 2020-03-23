@@ -32,7 +32,7 @@ def map_to_square(source)
   result = []
   source.length.times do |index|
     element = source[index]
-    mapped = element * 2
+    mapped = element ** 2
     result << mapped
   end
   result
