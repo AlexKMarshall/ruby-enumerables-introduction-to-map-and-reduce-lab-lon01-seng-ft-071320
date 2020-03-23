@@ -18,7 +18,7 @@ def map_to_no_change(source)
   result
 end
 
-def map_to_no_double(source)
+def map_to_double(source)
   result = []
   source.length.times do |index|
     element = source[index]
