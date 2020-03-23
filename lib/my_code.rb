@@ -27,3 +27,13 @@ def map_to_double(source)
   end
   result
 end
+
+def map_to_double(source)
+  result = []
+  source.length.times do |index|
+    element = source[index]
+    mapped = element * 2
+    result << mapped
+  end
+  result
+end
