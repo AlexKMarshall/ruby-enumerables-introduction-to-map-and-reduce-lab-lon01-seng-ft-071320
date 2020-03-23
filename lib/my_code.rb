@@ -48,7 +48,9 @@ def reduce_to_total(source, initial_Value = 0)
 end
 
 def reduce_to_all_true(source)
-  result = true
   source.length.times do |index|
-    
+    current = source[index]
+    return false if !current
+  end
+  true
 end
