@@ -37,3 +37,6 @@ def map_to_square(source)
   end
   result
 end
+
+def reduce_to_total(source)
+end
