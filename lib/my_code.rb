@@ -38,8 +38,8 @@ def map_to_square(source)
   result
 end
 
-def reduce_to_total(source)
-  accumulator = 0
+def reduce_to_total(source, initial_Value = 0)
+  accumulator = initial_Value
   source.length.times do |index|
     current = source[index]
     accumulator += current
