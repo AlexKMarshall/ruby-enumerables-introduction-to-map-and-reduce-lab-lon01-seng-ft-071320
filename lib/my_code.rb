@@ -54,3 +54,11 @@ def reduce_to_all_true(source)
   end
   true
 end
+
+def reduce_to_any_true(source)
+  source.length.times do |index|
+    current = source[index]
+    return false if !current
+  end
+  true
+end
