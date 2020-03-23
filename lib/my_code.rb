@@ -9,4 +9,11 @@ def map_to_negativize(source)
 end
 
 def map_to_no_change(source)
+  result = []
+  source.length.times do |index|
+    element = source[index]
+    mapped = element
+    result << mapped
+  end
+  result
 end
